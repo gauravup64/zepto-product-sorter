@@ -1,0 +1,17 @@
+
+name: Zepto Cloud Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check cloud computer
+        run: |
+          echo "Hello Gaurav!"
+          echo "Zepto monitoring project started."
+          echo "Cloud computer is working successfully!"
+          date
